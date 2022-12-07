@@ -1,0 +1,42 @@
+{
+  "author": "Brandon Shelley",
+  "contributors": [{
+    "name": "Brandon Shelley",
+    "email": "brandon@codeblooded.io"
+  }, {
+    "name": "Robert Walsh",
+    "email": "rjwalsh1985@gmail.com"
+  }],
+  "dependencies": {
+    "async": "latest",
+    "file": "latest",
+    "file-type": "^3.4.0",
+    "lodash": "~4.0",
+    "lodash-inflection": "latest",
+    "lodash-uuid": "latest",
+    "read-chunk": "^1.0.1",
+    "request": "latest",
+    "url-join": "latest",
+    "validator": "^4.5.0"
+  },
+  "description": "The official Node.js SDK for Usergrid",
+  "devDependencies": {
+    "chance": "^0.8.0",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brandonscript/usergrid-nodejs.git"
+  },
+  "keywords": [],
+  "license": "Apache 2.0",
+  "main": "usergrid.js",
+  "name": "usergrid",
+  "private": false,
+  "scripts": {
+    "start": "node usergrid.js",
+    "test": "mocha tests"
+  },
+  "version": "2.0.0-rc.2"
+}
